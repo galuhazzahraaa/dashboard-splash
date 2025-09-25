@@ -60,8 +60,8 @@
   </style>
 </head>
 <body>
-  <div class="box">
-    <button class="close-btn" onclick="parent.postMessage('close','*')">&times;</button>
+  <div class="box" id="welcomeBox">
+    <button class="close-btn" onclick="document.getElementById('welcomeBox').style.display='none'">&times;</button>
     <h2>Selamat Datang!</h2>
     <p>Untuk mulai eksplorasi, silakan klik <b>"Select a Category"</b>  
     pada menu filter di dashboard.</p>
